@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const db = require('mongoose');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static('coronarepo/build'))
+app.use(express.static('build'))
 
 db.connect('mongodb://localhost:27017/corona', () => {
     console.log('db connected');
