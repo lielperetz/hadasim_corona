@@ -25,4 +25,4 @@ npm start
 and then you can open http://localhost:8080 to view it in the browser.
 
 
-(https://github.com/lielperetz/hadasim_corona/issues/1#issue-1419589673)
+https://github.com/lielperetz/hadasim_corona/issues/1#issue-1419589673
