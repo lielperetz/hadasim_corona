@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hadasim_corona/static/css/main.3c6c5308.css",
+    "main.js": "/hadasim_corona/static/js/main.7b542890.js",
+    "static/js/787.4b660990.chunk.js": "/hadasim_corona/static/js/787.4b660990.chunk.js",
+    "index.html": "/hadasim_corona/index.html",
+    "main.3c6c5308.css.map": "/hadasim_corona/static/css/main.3c6c5308.css.map",
+    "main.7b542890.js.map": "/hadasim_corona/static/js/main.7b542890.js.map",
+    "787.4b660990.chunk.js.map": "/hadasim_corona/static/js/787.4b660990.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c6c5308.css",
+    "static/js/main.7b542890.js"
+  ]
+}
