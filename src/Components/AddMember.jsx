@@ -61,7 +61,7 @@ export default function AddMember(props) {
             isValid = false;
             alert('Id is incorrect!!');
         }
-        else if (!firstName.match(/^[a-zA-Z]+$/) || !lastName.match(/^[a-zA-Z]+$/)) {
+        else if (!firstName.match(/^[a-zA-Z]{2,40}( [a-zA-Z]{2,40})+$/) || !lastName.match(/^[a-zA-Z]{2,40}( [a-zA-Z]{2,40})+$/)) {
             isValid = false;
             alert("Name must contain letters only!!");
         }
