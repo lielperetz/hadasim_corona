@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MembersList from './Components/MembersList';
 import MemberDetails from './Components/MemberDetails';
 import AddMember from './Components/AddMember';
@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<MembersList members={members} delete={deleteMember} />} />
           {members.map((m) => {
@@ -82,7 +82,7 @@ function App() {
             return <Route path={`add${m.id}`} element={<AddMember memberToUpdate={m} update={update} />} />
           })}
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
